@@ -137,7 +137,7 @@ const Login = ({ isUserAuthenticated }) => {
                             <TextField variant="standard" value={login.password} onChange={(e) => onValueChange(e)} name='password' label='Enter Password' />
 
                             {error && <Error>{error}</Error>}
-
+                            <Typography>Please wait for a few seconds after clicking on login - it takes more time.</Typography>
                             <LoginButton variant="contained" onClick={() => loginUser()} >Login</LoginButton>
                             <Text style={{ textAlign: 'center' }}>OR</Text>
                             <SignupButton onClick={() => toggleSignup()} style={{ marginBottom: 50 }}>Create an account</SignupButton>
