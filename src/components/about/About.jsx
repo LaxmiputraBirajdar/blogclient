@@ -30,13 +30,13 @@ const About = () => {
             
                 <Text variant="h5">My self Lasya Cheela Third year B.Tech Student from NIT Agartala. 
                     <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://github.com/kunaltyagi9" color="inherit" target="_blank"><GitHub /></Link>
+                        
                     </Box>
                 </Text>
                 <Text variant="h5">
                      
                 If you need anything, please send me an email.
-                        <Link href="mailto:codeforinterview@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
+                        <Link href="mailto:lasyacheela@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
                             <Email />
                         </Link>.
                 </Text>
